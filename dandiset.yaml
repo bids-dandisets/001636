@@ -8,12 +8,44 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 4707862611
+  numberOfFiles: 299
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Turner, Robert (2025) Pyramidal tract and corticostriatal neuron recordings
-  in MPTP-treated macaque performing visuomotor tasks (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/001636/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+    name: Macaca mulatta - Rhesus monkey
+    schemaKey: SpeciesType
+  variableMeasured:
+  - SpatialSeries
+  - ProcessingModule
+  - CompassDirection
+  - ElectrodeGroup
+  - ElectricalSeries
+  - Units
+citation: Turner, Robert; Pasquereau, Benjamin (2025) Pyramidal tract and corticostriatal
+  neuron recordings in MPTP-treated macaque performing visuomotor tasks (Version draft)
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001636/draft
 contributor:
 - email: rturner@pitt.edu
   identifier: 0000-0002-6074-4365
@@ -24,6 +56,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 - identifier: 0000-0003-2855-0672
+  includeInCitation: true
   name: Pasquereau, Benjamin
   roleName:
   - dcite:Author
@@ -61,6 +94,20 @@ relatedResource:
     to muscle stretch'
   relation: dcite:IsDescribedBy
   repository: Frontiers in Systems Neuroscience
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+- identifier: doi:10.1093/cercor/bhq217
+  name: 'Primary Motor Cortex of the Parkinsonian Monkey: Differential Effects on
+    the Spontaneous Activity of Pyramidal Tract-Type Neurons'
+  relation: dcite:IsDescribedBy
+  repository: Cerebral Cortex
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+- identifier: 10.1093/brain/awv312
+  name: 'Primary motor cortex of the parkinsonian monkey: altered encoding of active
+    movement'
+  relation: dcite:IsDescribedBy
+  repository: Brain A Journal of Neurology
   resourceType: dcite:JournalArticle
   schemaKey: Resource
 repository: https://dandiarchive.org
