@@ -3,7 +3,31 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001384
+  name: primary motor cortex
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002152
+  name: middle cerebellar peduncle
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002435
+  name: striatum
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001897
+  name: thalamus
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001900
+  name: ventral thalamus
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001461
+  name: elbow
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001460
+  name: arm
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/DOID_14330
+  name: Parkinson's disease
+  schemaKey: Disorder
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -43,11 +67,15 @@ assetsSummary:
   - ElectrodeGroup
   - ElectricalSeries
   - Units
-citation: Turner, Robert; Pasquereau, Benjamin (2025) Pyramidal tract and corticostriatal
-  neuron recordings in MPTP-treated macaque performing visuomotor tasks (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001636/draft
+citation: Turner, Robert; Pasquereau, Benjamin; DeLong, Mahlon R. (2025) Pyramidal
+  tract and corticostriatal neuron recordings in MPTP-treated macaque performing visuomotor
+  tasks (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001636/draft
 contributor:
-- email: rturner@pitt.edu
+- affiliation:
+  - identifier: https://ror.org/01an3r305
+    name: University of Pittsburgh
+    schemaKey: Affiliation
+  email: rturner@pitt.edu
   identifier: 0000-0002-6074-4365
   includeInCitation: true
   name: Turner, Robert
@@ -67,6 +95,13 @@ contributor:
   name: Mayorquin, Heberto
   roleName:
   - dcite:DataCurator
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03czfpz43
+    name: Emory University
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: DeLong, Mahlon R.
   schemaKey: Person
 dateCreated: '2025-11-11T15:48:24.913269+00:00'
 description: 'Electrophysiology recordings from primary motor cortex (M1) of macaque
@@ -89,21 +124,21 @@ manifestLocation:
 name: Pyramidal tract and corticostriatal neuron recordings in MPTP-treated macaque
   performing visuomotor tasks
 relatedResource:
-- identifier: 10.3389/fnsys.2013.00098
+- identifier: https://doi.org/10.3389/fnsys.2013.00098
   name: 'Primary motor cortex of the parkinsonian monkey: altered neuronal responses
     to muscle stretch'
   relation: dcite:IsDescribedBy
   repository: Frontiers in Systems Neuroscience
   resourceType: dcite:JournalArticle
   schemaKey: Resource
-- identifier: doi:10.1093/cercor/bhq217
+- identifier: https://doi.org/10.1093/cercor/bhq217
   name: 'Primary Motor Cortex of the Parkinsonian Monkey: Differential Effects on
     the Spontaneous Activity of Pyramidal Tract-Type Neurons'
   relation: dcite:IsDescribedBy
   repository: Cerebral Cortex
   resourceType: dcite:JournalArticle
   schemaKey: Resource
-- identifier: 10.1093/brain/awv312
+- identifier: https://doi.org/10.1093/brain/awv312
   name: 'Primary motor cortex of the parkinsonian monkey: altered encoding of active
     movement'
   relation: dcite:IsDescribedBy
