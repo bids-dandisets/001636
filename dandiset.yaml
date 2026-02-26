@@ -131,6 +131,11 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- identifier: 0000-0002-5937-7537
+  name: Mayorquin, Heberto
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2025-11-11T15:48:24.913269+00:00'
 description: 'Electrophysiology recordings from primary motor cortex (M1) of macaque
   monkeys (Macaca mulatta) during visuomotor step-tracking tasks, collected before
