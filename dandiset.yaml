@@ -51,29 +51,29 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 6790860363
-  numberOfFiles: 339
-  numberOfSubjects: 1
+  numberOfBytes: 6381764763
+  numberOfFiles: 447
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
     name: Macaca mulatta - Rhesus monkey
     schemaKey: SpeciesType
   variableMeasured:
-  - SpatialSeries
-  - ElectrodeGroup
   - Units
   - ProcessingModule
+  - SpatialSeries
+  - ElectrodeGroup
   - ElectricalSeries
 citation: Turner, Robert; Pasquereau, Benjamin; DeLong, Mahlon R. (2026) Pyramidal
   tract and corticostriatal neuron recordings in MPTP-treated macaque performing visuomotor
